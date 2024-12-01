@@ -1,0 +1,51 @@
+
+@use "../../style.css";
+
+.compétance-content{
+    color:var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+.compétance-title{
+    display: flex;
+    justify-content: center; // Centre le titre horizontalement
+    align-items: center;     // Centre le titre verticalement
+    color:var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.skills-container {
+    display: flex;               // Utilise flexbox pour aligner les éléments
+    flex-wrap: wrap;             // Permet aux éléments de passer à la ligne suivante quand ils ne tiennent plus sur la même ligne
+    gap: 20px;                   // Espace entre les éléments
+    justify-content: center;     // Centre les éléments horizontalement (tu peux aussi utiliser space-evenly ou space-between si tu veux plus d'espace entre les éléments)
+  }
+
+.skill-card {
+    width: 18%;                  // Définit la largeur de chaque carte d'image. Tu peux ajuster cette valeur en fonction de la taille que tu souhaites
+    display: flex;
+    flex-direction: column;      // Pour aligner l'image et le titre de manière verticale
+    align-items: center;         // Centre les éléments horizontalement
+    margin-bottom: 20px;         // Ajoute un espacement vertical entre les lignes de cartes
+  }
+  .skill-card:hover {
+    transform: translateY(-20px);  // Déplace la carte légèrement vers le haut
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);  // Ajoute une ombre portée lors du survol pour un effet 3D
+  
+}
+
+.skill-image {
+    width: 50%;  // Assure-toi que l'image occupe tout l'espace disponible
+    object-fit: cover; // Cela remplira l'espace sans déformer l'image
+    border-radius: 8px; // Optionnel : pour avoir des coins arrondis
+    margin-bottom: 10px; // Ajoute un espacement vertical entre l'image et le
+  }

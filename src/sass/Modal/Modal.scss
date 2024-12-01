@@ -1,0 +1,178 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    object-fit: cover;
+   
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    min-height: 400px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .modal-image-container {
+    width: 100%;
+    height: 500px; /* Hauteur fixe pour le conteneur */
+    overflow: hidden; /* Cache les parties de l'image qui débordent */
+    border-radius: 8px; /* Arrondit les coins du conteneur */
+    position: relative; /* Nécessaire pour le positionnement de l'image */
+}
+  
+  .modal-image {
+   margin-top: 5px;
+    width: 98%;
+    height: 549px; /* Hauteur fixe */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    
+  }
+  
+  .modal-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background:  #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .modal-links a:hover {
+    background: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .modal-content {
+    color: black; /* Définit le texte en noir */
+  }
+  
+  .modal-header h1 {
+    color: black; /* Si vous avez des titres dans la modale */
+  }
+  
+  .modal-text {
+    color: black; /* Texte spécifique */
+    background-color: rgba(255, 255, 255, 0.8); /* Optionnel : Ajout d'un fond semi-transparent pour la lisibilité */
+    padding: 10px; /* Ajustez selon vos besoins */
+  }
+
+
+  .modal-content ul {
+    display: flex; /* Aligne les éléments en ligne */
+    list-style: none; /* Retire les puces de liste */
+    gap: 10px; /* Espacement entre chaque compétence */
+    padding: 0; /* Supprime les marges/paddings par défaut */
+    margin-top: 20px; /* Ajoute un espace entre la liste et les autres éléments */
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content ul li {
+    display: flex; /* Nécessaire pour centrer le texte dans le cercle */
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Taille du cercle */
+    height: 40px; /* Taille du cercle */
+    background:  #0056b3;
+    border: 2px solid #0056b3; /* Bordure violette */
+    border-radius: 50%; /* Rend l'élément circulaire */
+    color: var(--primary-color); /* Utilise une couleur de texte appropriée */
+    font-size: 14px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-align: center; /* Centrage du texte */
+    
+    transition: transform 0.3s ease; /* Ajoute une animation au survol */
+    color: white;
+  }.modal-content ul li:hover {
+    transform: scale(1.2); /* Agrandit légèrement le cercle */
+    background-color: #007bff; /* Change la couleur du fond au survol */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4); /* Ajoute une ombre pour un effet 3D */
+    border-color: #007bff; /* Change la couleur de la bordure */
+    cursor: pointer; /* Change le curseur en main pour indiquer l'interaction */
+}
+  
+  
+
+  @media (max-width: 768px) {
+    /* Centrer la modale avec des marges ajustées */
+    .modal-content {
+      width: 95%; /* Réduit la largeur sur les petits écrans */
+      padding: 15px; /* Moins de padding pour économiser l'espace */
+      min-height: auto; /* Permet à la hauteur de s'ajuster au contenu */
+    }
+  
+    /* Ajustement de la hauteur de l'image */
+    .modal-image-container {
+      height: 300px; /* Hauteur réduite */
+    }
+  
+    .modal-image {
+      height: 100%; /* L'image occupe toute la hauteur disponible */
+      object-fit: contain; /* Ajuste l'image sans la déformer */
+    }
+  
+    /* Liens plus petits pour s'adapter à la taille de l'écran */
+    .modal-links a {
+      font-size: 14px; /* Texte plus petit */
+      padding: 6px 10px; /* Moins de padding pour économiser l'espace */
+    }
+  
+    /* Liste de compétences en colonne */
+    .modal-content ul {
+      flex-direction: column; /* Aligne les éléments verticalement */
+      gap: 5px; /* Réduit l'espacement entre les éléments */
+      margin-left: 0; /* Supprime la marge excessive */
+      margin-top: 10px;
+    }
+  
+    .modal-content ul li {
+      width: 80px; /* Réduit la taille des cercles */
+      height: 80px;
+      font-size: 12px; /* Réduit la taille du texte */
+    }
+  
+    /* Bouton de fermeture plus accessible */
+    .modal-close {
+      font-size: 18px; /* Légèrement plus petit */
+      top: 5px;
+      right: 10px;
+    }
+  }
