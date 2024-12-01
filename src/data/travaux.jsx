@@ -11,7 +11,7 @@ const Projects =  [
     {
         "name" : "booki",
         "image" : booki,
-        "text" : "En tant que développeur web chez Booki, j'ai intégré l'interface du site à l'aide de HTML et CSS, en collaboration avec Sarah, la CTO, et Loïc, l'UI designer. J'ai travaillé sur des maquettes complètes pour les versions desktop, tablette et mobile, en respectant les spécifications et contraintes techniques. J'ai reçu une structure de fichiers préparée pour démarrer",
+        "text" : "En tant que développeur web chez Booki, j'ai conçu l'interface du site avec HTML et CSS, en collaboration avec Sarah, la CTO, et Loïc, le designer UI. J'ai créé des maquettes pour les versions desktop, tablette et mobile, en respectant les spécifications techniques.",
         "code" : "https://github.com/Hosna98/Proje_2_Booki.git ",
         "site" : "http://127.0.0.1:5500/index.html",
         "competences" : ["HTML",  "CSS", "Figma", "GitHub"],
@@ -19,7 +19,7 @@ const Projects =  [
     {
         "name" : "Portfolio architecte ",
         "image" : Sophiebluel,
-        "text" : "Chez ArchiWebos, j'ai contribué à la conception du site portfolio de Sophie Bluel, architecte d'intérieur. Mon rôle en tant que développeur front-end a impliqué la création de la page de présentation, de la page de connexion de l'administrateur, et d'une modale d'upload de médias. ",
+        "text" : "Chez ArchiWebos, j'ai participé à la création du site portfolio de Sophie Bluel, architecte d'intérieur. En tant que développeur front-end, j'ai réalisé la page de présentation, la page de connexion administrateur, ainsi qu'une modale pour l'upload des médias. ",
         "code" : " https://github.com/Hosna98/Projet-Sophie-Bluel.git",
         "site" : " http://127.0.0.1:5500/FrontEnd/index.html",
         "competences" : ["HTML",  "CSS", "Javascript", "Swagger"]
@@ -44,7 +44,7 @@ const Projects =  [
     {
         "name" : "Mon Vieux Grimoire",
         "image" : MonVieuxGrimoire,
-        "text" : "En tant que développeur front-end freelance, j'ai été sollicité par l'agence événementielle 724events pour résoudre des problèmes de bugs et finaliser leur site web vitrine. Le projet avait été initialement démarré par un autre développeur. J'ai repris le travail en corrigeant les bugs, et en complétant le cahier de recette pour assurer un fonctionnement sans faille.",
+        "text" : "En tant que développeur back-end freelance, j'ai travaillé avec Kévin sur la mise en place de l'API pour le site de notation de livres Mon Vieux Grimoire. Mon rôle a été de créer l'architecture back-end et d'optimiser les images.",
         "code" : "https://github.com/Hosna98/Mon-Vieux-Grimoire.git",
         "site" : " http://localhost:3000/ " ,
         "competences" : [" Javascript", "MongoDB","Node.js","Express" ]
@@ -53,7 +53,7 @@ const Projects =  [
     {
         "name" : "Qwenta",
         "image" : Qwenta,
-        "text" : "En tant que développeur front-end chez Argent Bank, j'ai travaillé sur la création du tableau de bord des utilisateurs. La première phase impliquait de créer une application web réactive avec React, en utilisant Redux pour la gestion de l'état. Dans la phase 2, j'ai travaillé sur la conception des transactions et j'ai fourni des spécifications Swagger pour les routes API associées.",
+        "text" : "En tant que développeur front-end chez Webgencia, j’ai pris en charge la préparation du projet Menu Maker pour Qwenta, en rédigeant les spécifications techniques et en planifiant le travail à l’aide d’un tableau Kanban, en attendant le retour de Soufiane.",
         "code" : "https://github.com/Hosna98/Projet-7-Qwenta.git",
         "site" : "" ,
         "competences" : ["Canva" ,"Notion",  "Feedly"]
