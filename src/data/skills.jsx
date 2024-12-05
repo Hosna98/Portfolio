@@ -1,14 +1,14 @@
 
-import html from "../../assets/skills/html.svg";
-import css from "../../assets/skills/css.svg";
-import javascript from "../../assets/skills/javascript.svg";
-import react from "../../assets/skills/react.svg";
-import node from "../../assets/skills/node.png";
-import swagger from "../../assets/skills/swagger.svg";
-import mongodb from "../../assets/skills/mongodb.png";
-import figma from "../../assets/skills/figma.svg";
-import sass from "../../assets/skills/sass.svg";
-import github from "../../assets/skills/github.svg";
+import html from "/assets/skills/html.svg";
+import css from "/assets/skills/css.svg";
+import javascript from "/assets/skills/javascript.svg";
+import react from "/assets/skills/react.svg";
+import node from "/assets/skills/node.png";
+import swagger from "/assets/skills/swagger.svg";
+import mongodb from "/assets/skills/mongodb.png";
+import figma from "/assets/skills/figma.svg";
+import sass from "/assets/skills/sass.svg";
+import github from "/assets/skills/github.svg";
 
 
 

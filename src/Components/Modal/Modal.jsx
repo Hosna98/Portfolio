@@ -24,9 +24,11 @@ const Modal = ({ project, onClose }) => {
           <a href={project.code} target="_blank" rel="noopener noreferrer">
             Code
           </a>
+          {project.site && (
           <a href={project.site} target="_blank" rel="noopener noreferrer">
             Site
           </a>
+          )}
         </div>
       </div>
     </div>

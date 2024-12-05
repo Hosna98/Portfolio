@@ -15,7 +15,7 @@ export const Hero = () => {
         </a>
       </div>
       <img 
-        src="/assets/hero/heroImage.png" 
+        src="assets/hero/heroImage.png" 
         alt="Hero Image astronaute" 
         className="heroImg" 
        />

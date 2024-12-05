@@ -40,35 +40,13 @@
     color: var(--color-text);
     align-items: center;
     margin-left: 40%;
-    
-
-
-
-
-
-
-
-
-
-
-
     }
-  
-
-
-
-
-
-
     .project-card {
         width: 330px;
         height: 400px;
         position: relative;
         overflow: hidden; /* Empêche le débordement */
         border-radius: 10px; /* Coins arrondis */
-        
-        
-
         background: linear-gradient(135deg,#19376d,  #3b5998); /* Dégradé de bleu */
         display: flex;
         justify-content: center; /* Centre le contenu verticalement */
@@ -77,12 +55,6 @@
         text-align: center; /* Centre le texte */
         padding: 10px; /* Ajoute un peu d'espace autour du texte */
         cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
-    
-
-
-
-
-
         transition: transform 0.3s ease; /* Transition au survol */
       
         &:hover {
@@ -98,9 +70,6 @@
           width: 100%;
           height: 100%;
           background-color: rgba(25, 55, 109, 0.8); /* Ombre semi-transparente bleu foncé */
-          
-          
-          
           z-index: 1; /* Assure que l'ombre est au-dessus de l'image */
           transition: background-color 0.3s ease; /* Transition au survol */
         }
@@ -108,20 +77,9 @@
         &:hover::before {
           background-color: rgba(0, 0, 0, 0.6); /* Renforce l'ombre au survol */
             
-        }
-
-  
-        
-    
-    
+        } 
   }
   .project-title-name {
-  
-
-
-
-
-
     width: 100%;
     text-align: center; /* Centre le texte */
     color: white;
@@ -133,24 +91,14 @@
     bottom: 0; /* Fixe au bas de la carte */
     border-radius: 0 0 10px 10px; /* Coins arrondis en bas */
 
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
   @media (max-width : 768px) {
     .projects-container {
         flex-direction: column;
-        margin-left: 40px;
+       
+        align-items: center;
     }
 
     .project-card{

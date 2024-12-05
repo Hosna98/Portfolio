@@ -134,7 +134,7 @@
   @media (max-width: 768px) {
     /* Centrer la modale avec des marges ajustées */
     .modal-content {
-      width: 95%; /* Réduit la largeur sur les petits écrans */
+      width: 80%; /* Réduit la largeur sur les petits écrans */
       padding: 15px; /* Moins de padding pour économiser l'espace */
       min-height: auto; /* Permet à la hauteur de s'ajuster au contenu */
     }
@@ -157,7 +157,6 @@
   
     /* Liste de compétences en colonne */
     .modal-content ul {
-      flex-direction: column; /* Aligne les éléments verticalement */
       gap: 5px; /* Réduit l'espacement entre les éléments */
       margin-left: 0; /* Supprime la marge excessive */
       margin-top: 10px;
